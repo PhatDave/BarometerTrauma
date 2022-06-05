@@ -27,7 +27,7 @@
     </Wearable>
     <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-5,0" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false" />
     <ItemContainer capacity="96" depth="0.5" >
-      <Containable items="smallitem,mediumitem,largeitem" />
+      <Containable items="smallitem,mediumitem,largeitem,ammobox,coilgunammo" />
     </ItemContainer>
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
