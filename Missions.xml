@@ -9,7 +9,7 @@
     description="Researchers of [location1] have picked up an infrasonic signal highly similar to those emitted by alien artifacts previously discovered on Europa. Investigate the signal and retrieve the potential artifact."
     difficulty="3"
     commonness="50"
-    reward="8750"
+    reward="3500"
     achievementidentifier="artifactmission"
     sonaricon="artifact"
     failuremessage="Retrieving the artifact failed"
@@ -47,7 +47,7 @@
     description="Researchers of [location1] have picked up an infrasonic signal highly similar to those emitted by alien artifacts previously discovered on Europa. Investigate the signal and retrieve the potential artifact."
     difficulty="3"
     commonness="50"
-    reward="8750"
+    reward="3500"
     achievementidentifier="artifactmission"
     sonaricon="artifact"
     failuremessage="Retrieving the artifact failed"
@@ -84,7 +84,7 @@
     description=""
     difficulty="3"
     commonness="0"
-    reward="8750"
+    reward="3500"
     achievementidentifier="artifactmission"
     sonaricon="artifact"
     failuremessage="Retrieving the artifact failed"
@@ -122,7 +122,7 @@
     description="Wreck salvage mission description goes here"
     difficulty="3"
     commonness="100"
-    reward="7000"
+    reward="2800"
     achievementidentifier="salvagewreckmission"
     failuremessage="Salvaging the wreck failed"
     successmessage="Mission successful"
@@ -185,7 +185,7 @@
     type="Monster"
     difficulty="2"
     commonness="100"
-    reward="3750"
+    reward="1500"
     maxsonarmarkerdistance="10000">
     <monster character="Hammerhead_m" min="1" max="2"/>
     <monster character="Hammerheadgold_m" min="0" max="1"/>
@@ -202,7 +202,7 @@
     type="Monster"
     difficulty="3"
     commonness="100"
-    reward="7500"
+    reward="3000"
     maxsonarmarkerdistance="10000"
     monsterfile="Hammerheadgold_m">
     <monster character="Hammerhead_m" min="2" max="3"/>
@@ -218,7 +218,7 @@
     type="Monster"
     difficulty="3"
     commonness="100"
-    reward="6250"
+    reward="2500"
     maxsonarmarkerdistance="10000"
     monsterfile="Moloch_m">
     <Reputation identifier="location" amount="10" />
@@ -233,7 +233,7 @@
     type="Monster"
     difficulty="4"
     commonness="100"
-    reward="12500"
+    reward="5000"
     maxsonarmarkerdistance="10000"
     monsterfile="Molochblack_m">
     <Reputation identifier="location" amount="10" />
@@ -247,7 +247,7 @@
     type="Monster"
     difficulty="3"
     commonness="50"
-    reward="8750"
+    reward="3500"
     maxsonarmarkerdistance="10000"
     sonarlabel="character.crawler"
     monsterfile="crawlerbroodmother">
@@ -264,7 +264,7 @@
     type="Monster"
     difficulty="4"
     commonness="100"
-    reward="12500"
+    reward="5000"
     maxsonarmarkerdistance="10000"
     sonarlabel="character.crawler"
     monsterfile="crawlerbroodmother">
@@ -280,7 +280,7 @@
     type="Monster"
     difficulty="4"
     commonness="100"
-    reward="12500"
+    reward="5000"
     maxsonarmarkerdistance="10000">
     <monster character="hammerheadmatriarch" count="1"/>
     <monster character="hammerhead" min="3" max="5"/>
@@ -296,7 +296,7 @@
     type="Monster"
     difficulty="3"
     commonness="50"
-    reward="8750"
+    reward="3500"
     maxsonarmarkerdistance="10000">
     <monster character="hammerheadmatriarch" count="1"/>
     <monster character="hammerhead" min="2" max="2"/>
@@ -312,7 +312,7 @@
     type="Monster"
     difficulty="3"
     commonness="50"
-    reward="8750"
+    reward="3500"
     maxsonarmarkerdistance="10000"
     sonarlabel="character.spineling"
     monsterfile="spineling_giant">
@@ -329,7 +329,7 @@
     type="Monster"
     difficulty="4"
     commonness="100"
-    reward="12500"
+    reward="5000"
     maxsonarmarkerdistance="10000"
     sonarlabel="character.spineling"
     monsterfile="spineling_giant">
@@ -345,7 +345,7 @@
     type="Monster"
     difficulty="4"
     commonness="100"
-    reward="12500"
+    reward="5000"
     maxsonarmarkerdistance="10000">
     <monster character="tigerthresher" min="8" max="10"/>
     <monster character="bonethresher" min="2" max="3"/>
@@ -361,7 +361,7 @@
     type="Monster"
     difficulty="3"
     commonness="100"
-    reward="7500"
+    reward="3000"
     maxsonarmarkerdistance="10000">
     <monster character="tigerthresher" min="3" max="5"/>
     <monster character="bonethresher" min="1" max="2"/>
@@ -376,7 +376,7 @@
     type="Monster"
     difficulty="2"
     commonness="100"
-    reward="6250"
+    reward="2500"
     maxsonarmarkerdistance="10000">
     <monster character="swarmcrawler" min="5" max="8"/>
     <Reputation identifier="location" amount="10" />
@@ -390,7 +390,7 @@
     type="Monster"
     difficulty="3"
     commonness="100"
-    reward="8750"
+    reward="3500"
     maxsonarmarkerdistance="10000">
     <monster character="swarmcrawler" min="10" max="12"/>
     <monster character="crawlerbroodmother" min="0" max="1"/>
@@ -406,7 +406,7 @@
     type="Monster"
     difficulty="3"
     commonness="75"
-    reward="8750"
+    reward="3500"
     maxsonarmarkerdistance="10000">
     <monster character="crawlerhusk" min="10" max="12"/>
     <Reputation identifier="location" amount="10" />
@@ -420,7 +420,7 @@
     type="Monster"
     difficulty="3"
     commonness="100"
-    reward="8750"
+    reward="3500"
     sonarlabel="character.mudraptor"
     maxsonarmarkerdistance="10000">
     <monster character="mudraptor_unarmored" min="2" max="3"/>
@@ -438,7 +438,7 @@
     type="Monster"
     difficulty="4"
     commonness="100"
-    reward="12500"
+    reward="5000"
     sonarlabel="character.mudraptor"
     maxsonarmarkerdistance="10000">
     <monster character="mudraptor_unarmored" min="3" max="4"/>
@@ -458,7 +458,7 @@
     sideobjective="true"
     difficulty="4"
     commonness="0"
-    reward="21250"
+    reward="8500"
     sonarlabel="target"
     spawntype="Abyss"
     maxsonarmarkerdistance="20000"
@@ -482,7 +482,7 @@
     sideobjective="true"
     difficulty="4"
     commonness="0"
-    reward="21250"
+    reward="8500"
     sonarlabel="target"
     spawntype="Abyss"
     maxsonarmarkerdistance="20000"
@@ -506,7 +506,7 @@
     sideobjective="true"
     difficulty="4"
     commonness="0"
-    reward="21250"
+    reward="8500"
     sonarlabel="target"
     spawntype="Abyss"
     maxsonarmarkerdistance="20000"
@@ -532,7 +532,7 @@
     achievementidentifier="cargomission"
     successmessage="The explosives have been successfully delivered.">
     <Items>
-      <Item identifier="explosivecrate" reward="500" maxcount="15">
+      <Item identifier="explosivecrate" reward="200" maxcount="15">
         <Item identifier="compoundn" amount="10"/>
         <Item identifier="detonator" amount="10">
           <Item identifier="compoundn"/>
@@ -557,12 +557,12 @@
     description="Reseachers of [location1] need someone to deliver some dangerous chemicals to [location2] for a reward of [reward] credits."
     difficulty="1"
     commonness="50"
-    reward="1250"
+    reward="500"
     achievementidentifier="cargomission"
     successmessage="The chemicals have been successfully delivered."
     requireddeliveryamount="0.98">
     <Items>
-      <Item identifier="chemicalcrate" reward="350" maxcount="20">
+      <Item identifier="chemicalcrate" reward="140" maxcount="20">
         <Item identifier="antidama2" amount="5"/>
         <Item identifier="sulphuricacid" amount="5"/>
         <Item identifier="morbusine" amount="5"/>
@@ -588,11 +588,11 @@
     description="Local researchers are offering [reward] credits for delivering a container of husk parasite eggs to [location2]."
     difficulty="1"
     commonness="33"
-    reward="1250"
+    reward="500"
     achievementidentifier="cargomission"
     successmessage="The husk eggs have been successfully delivered.">
     <Items>
-      <Item identifier="chemicalcrate" reward="625" maxcount="12">
+      <Item identifier="chemicalcrate" reward="250" maxcount="12">
         <Item identifier="huskeggs" amount="10"/>
       </Item>
     </Items>
@@ -614,11 +614,11 @@
     description="Local researchers are offering [reward] credits for delivering a large amount of nitroglycerin to [location2]."
     difficulty="1"
     commonness="25"
-    reward="1750"
+    reward="700"
     achievementidentifier="cargomission"
     successmessage="The chemicals have been successfully delivered.">
     <Items>
-      <Item identifier="explosivecrate" reward="875" maxcount="10">
+      <Item identifier="explosivecrate" reward="350" maxcount="10">
         <Item identifier="nitroglycerin" amount="20"/>
       </Item>
     </Items>
@@ -640,12 +640,12 @@
     description="A local clown syndicate is offering [reward] credits for delivering a shipment of clowning supplies to [location2]."
     difficulty="1"
     commonness="5"
-    reward="1250"
+    reward="500"
     achievementidentifier="cargomission"
     successmessage="The clown gear has been successfully delivered."
     requireddeliveryamount="0.98">
     <Items>
-      <Item identifier="metalcrate" reward="1250" maxcount="10">
+      <Item identifier="metalcrate" reward="500" maxcount="10">
         <Item identifier="clownmask" amount="5"/>
         <Item identifier="clowncostume" amount="5"/>
         <Item identifier="bikehorn" amount="10"/>
@@ -669,12 +669,12 @@
     description="A consignment of materials for construction needs to be transported to [location2] and the crew chief here is prepared to pay [reward] credits for your trouble."
     difficulty="1"
     commonness="50"
-    reward="1250"
+    reward="500"
     achievementidentifier="cargomission"
     successmessage="The materials have been successfully delivered."
     requireddeliveryamount="0.98">
     <Items>
-      <Item identifier="metalcrate" reward="1250" maxcount="25">
+      <Item identifier="metalcrate" reward="500" maxcount="25">
         <Item identifier="iron" amount="10"/>
         <Item identifier="lead" amount="10"/>
         <Item identifier="copper" amount="10"/>
@@ -699,12 +699,12 @@
     description="The security team at [location2] needs to be resupplied with materials for weapon fabrication. There's [reward] credits for you if you get these supplies to them."
     difficulty="1"
     commonness="50"
-    reward="1250"
+    reward="500"
     achievementidentifier="cargomission"
     successmessage="The materials have been successfully delivered."
     requireddeliveryamount="0.98">
     <Items>
-      <Item identifier="metalcrate" reward="250" maxcount="25">
+      <Item identifier="metalcrate" reward="100" maxcount="25">
         <Item identifier="magnesium" amount="5"/>
         <Item identifier="lead" amount="5"/>
         <Item identifier="sodium" amount="5"/>
@@ -732,12 +732,12 @@
     description="A consignment of medical items needs to be transported to [location2]. There's [reward] credits if you can get them there."
     difficulty="1"
     commonness="50"
-    reward="1250"
+    reward="500"
     achievementidentifier="cargomission"
     successmessage="The materials have been successfully delivered."
     requireddeliveryamount="0.98">
     <Items>
-      <Item identifier="mediccrate" reward="300" maxcount="20">
+      <Item identifier="mediccrate" reward="120" maxcount="20">
         <Item identifier="antidama1" amount="5"/>
         <Item identifier="antidama2" amount="5"/>
         <Item identifier="antibloodloss1" amount="5"/>
@@ -763,12 +763,12 @@
     description="A crew member over at [location2] has gone and get themselves a nasty case of morbusine poisoning. They might stand a chance of survival if you can get a shipment of antidote to them ASAP... You'll be paid [reward] credits on delivery."
     difficulty="1"
     commonness="50"
-    reward="2500"
+    reward="1000"
     achievementidentifier="cargomission"
     successmessage="The antidote has been successfully delivered."
     requireddeliveryamount="0.98">
     <Items>
-      <Item identifier="mediccrate" reward="2500" maxcount="1">
+      <Item identifier="mediccrate" reward="1000" maxcount="1">
         <Item identifier="morbusineantidote" amount="5"/>
       </Item>
     </Items>
@@ -790,7 +790,7 @@
     description="The beacon station between [location1] and [location2] is down - get in there and get it back online and transmitting an active sonar signal."
     difficulty="3"
     commonness="200"
-    reward="7000">
+    reward="2800">
     <monsters commonness="100">
       <monster character="Crawler" min="0" max="8"/>      
     </monsters>
@@ -821,7 +821,7 @@
     description="The beacon station between [location1] and [location2] is down - get in there and get it back online and transmitting an active sonar signal."
     difficulty="3"
     commonness="0"
-    reward="5500"
+    reward="2200"
     sideobjective="true">
 
     <monsters commonness="100">
@@ -851,7 +851,7 @@
     identifier="abandonedoutposthumans"
     tags="abandonedoutpost"
     type="OutpostDestroy"
-    reward="7500"
+    reward="3000"
     difficulty="4"
     commonness="20"
     allowretry="true"
@@ -883,7 +883,7 @@
     identifier="abandonedoutpostrescue"
     tags="abandonedoutpost"
     type="OutpostRescue"
-    reward="7500"
+    reward="3000"
     difficulty="4"
     commonness="20"
     allowretry="true"
@@ -919,7 +919,7 @@
     textidentifier="abandonedoutpostmonsters"
     tags="abandonedoutpost"
     type="OutpostDestroy"
-    reward="7500"
+    reward="3000"
     difficulty="4"
     commonness="10"
     allowretry="true"
@@ -960,7 +960,7 @@
     textidentifier="abandonedoutpostmonsters"
     tags="abandonedoutpost"
     type="OutpostDestroy"
-    reward="7500"
+    reward="3000"
     difficulty="3"
     commonness="10"
     allowretry="true"
@@ -999,7 +999,7 @@
     identifier="abandonedoutpostassassinate"
     tags="abandonedoutpost"
     type="OutpostDestroy"
-    reward="7500"
+    reward="3000"
     difficulty="4"
     commonness="20"
     allowretry="true"
@@ -1033,7 +1033,7 @@
     tags="nest,crawlernest"
     type="Nest"
     spawntype="cave"
-    reward="7500"
+    reward="3000"
     itemspawnradius="200"
     approachitemsradius="800"
     monsterspawnradius="4000"
@@ -1088,7 +1088,7 @@
     tags="nest,mudraptornest"
     type="Nest"
     spawntype="cave"
-    reward="12500"
+    reward="5000"
     itemspawnradius="200"
     approachitemsradius="800"
     monsterspawnradius="4000"
@@ -1135,7 +1135,7 @@
     tags="nest,tigerthreshernest"
     type="Nest"
     spawntype="cave"
-    reward="12500"
+    reward="5000"
     itemspawnradius="200"
     approachitemsradius="800"
     monsterspawnradius="4000"
@@ -1189,7 +1189,7 @@
     tags="collectminerals"
     type="Mineral"
     commonness="50"
-    reward="250"
+    reward="100"
     successmessage="The existence of the quartz and amblygonite deposits has been successfully proven.">
 
     <Items>
@@ -1230,7 +1230,7 @@
     type="Mineral"
     difficulty="1"
     commonness="50"
-    reward="3750"
+    reward="1500"
     successmessage="The existence of the quartz deposits has been successfully proven.">
 
     <Items>
@@ -1273,7 +1273,7 @@
     type="Mineral"
     difficulty="1"
     commonness="50"
-    reward="4500"
+    reward="1800"
     successmessage="The existence of the pyromorphite deposits has been successfully proven.">
 
     <Items>
@@ -1316,7 +1316,7 @@
     type="Mineral"
     difficulty="1"
     commonness="50"
-    reward="5000"
+    reward="2000"
     successmessage="The existence of the uranium deposits has been successfully proven.">
 
     <Items>
@@ -1357,7 +1357,7 @@
     type="Mineral"
     difficulty="1"
     commonness="50"
-    reward="6250"
+    reward="2500"
     successmessage="The existence of the thorianite deposits has been successfully proven.">
 
     <Items>
@@ -1396,7 +1396,7 @@
     type="Mineral"
     difficulty="1"
     commonness="50"
-    reward="6250"
+    reward="2500"
     successmessage="The existence of the titanite deposits has been successfully proven.">
 
     <Items>
@@ -1444,7 +1444,7 @@
     
     multiplayeronly="true"
     commonness="20"
-    reward="5000"
+    reward="2000"
     
     successmessage="The [loser] vessel has been defeated by the [winner] crew!"
     failuremessage="Both crews have perished.">
@@ -1459,7 +1459,7 @@
     description="Transport personnel safely to the next station. Payment scales with the number of transported personnel."
     difficulty="2"
     commonness="20"
-    reward="2750"
+    reward="1100"
     achievementidentifier="escortmission"
     successmessage="Personnel transport successful."
     baseescortedcharacters="1"
@@ -1480,7 +1480,7 @@
     description="Transport the VIP and their armed escort to the next station."
     difficulty="2"
     commonness="20"
-    reward="5000"
+    reward="2000"
     achievementidentifier="escortmission"
     successmessage="VIP transport successful.">
     <message header="Personnel died" text="" />
@@ -1501,7 +1501,7 @@
     description="Transport the prisoners to the next station."
     difficulty="3"
     commonness="15"
-    reward="6250"
+    reward="2500"
     achievementidentifier="escortmission"
     successmessage="Prisoner transport successful."
     baseescortedcharacters="1"
@@ -1522,7 +1522,7 @@
     description="Separatist terrorists have been hijacking ships in this sector. Our reports suggest that some of them have snuck onto your ship alongside innocent passengers. Make sure the innocent passengers make it to [location2] alive, and be ready for any hostile takeover. Get rid of any terrorists you come across."
     difficulty="3"
     commonness="20"
-    reward="6250"
+    reward="2500"
     achievementidentifier="escortmission"
     successmessage="Personnel transport successful and the terrorists have been dealt with."
     baseescortedcharacters="1"
@@ -1560,7 +1560,7 @@
     description="A pirate vessel has been sighted in this area. Check the locations that the submarine has reportedly been patrolling, and find the vessel and eliminate its crew."
     difficulty="4"
     commonness="20"
-    reward="10000"
+    reward="4000"
     achievementidentifier="piratemission"
     successmessage="The pirate vessel's crew was successfully eliminated."
     addedmissiondifficultyperplayer="8">
@@ -1568,9 +1568,9 @@
     <message header="Pirates eliminated" text="" />
     <Reputation identifier="location" amount="30" />
     <SubmarineTypes>
-      <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" preferreddifficulty="10" alternatereward="8000"/>
-      <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" preferreddifficulty="40" alternatereward="11000"/>
-      <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" preferreddifficulty="70" alternatereward="14000"/>
+      <Submarine path="Content/Map/EnemySubmarines/DugongPirate.sub" preferreddifficulty="10" alternatereward="3200"/>
+      <Submarine path="Content/Map/EnemySubmarines/HumpbackPirate.sub" preferreddifficulty="40" alternatereward="4400"/>
+      <Submarine path="Content/Map/EnemySubmarines/Typhon2Pirate.sub" preferreddifficulty="70" alternatereward="5600"/>
     </SubmarineTypes>
     <Characters>
       <Character typeidentifier="piratecaptain" minamount="1" maxamount="1"/>
@@ -1644,7 +1644,7 @@
     type="Escort"
     description=""
     commonness="0"
-    reward="5000"
+    reward="2000"
     achievementidentifier="escortmission"
     successmessage="Personnel transport successful.">
     <message header="Personnel died" text="" />
@@ -1664,7 +1664,7 @@
     description="You must go to [location1]!"
     difficulty="3"
     commonness="0"
-    reward="2500"
+    reward="1000"
     successmessage="You've arrived at the place!">
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,0,256,256" color="49,93,233"/>
     <TriggerEvent state="1" delay="5" eventidentifier="assassinationofjacovsubra4" campaignonly="true"/>
@@ -1676,7 +1676,7 @@
     type="Monster"
     difficulty="2"
     commonness="100"
-    reward="6250"
+    reward="2500"
     maxsonarmarkerdistance="10000"
     monsterfile="Hammerhead_mNamed" count ="1">
     <Reputation identifier="location" amount="10" />
@@ -1692,7 +1692,7 @@
     description=""
     difficulty="3"
     commonness="30"
-    reward="10000"
+    reward="4000"
     sonarlabel="scantarget"
     targets="3"
     mintargetdistance="4000"
@@ -1733,7 +1733,7 @@
     type="ClearAlienRuins"
     difficulty="4"
     commonness="25"
-    reward="15000"
+    reward="6000"
     sonarlabel="target"
     targetitems="guardianpod"
     targetenemies="fractalguardian,fractalguardian2"
