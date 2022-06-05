@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  
+<!-- When adding new text, do it so at the bottom under the 'New values' & 'Modified values' sections. If it's a new tag entirely, put it under the new additions one; If it's an update to an existing value, put it under the changed values one. -->
+<!-- DO NOT EDIT EXISTING TAGS FOR ALREADY TRANSLATED LINES -> if you need a new tag for something, add it under the 'New values' header and comment if there's some other tag that should be replaced -->
+
+
+
+<!-- Modified values after April 4 (Urban Expanses update) -->
+
+<price>Price: [amount]</price>
+<deliveryfee>Delivery fee: [amount]</deliveryfee>
+
+<serverprocessclosed>The server process has closed unexpectedly.</serverprocessclosed>
+<serverprocesscrashed>The server process has crashed. A crash report ([reportfilepath]) has been generated in the game's root directory.</serverprocesscrashed>
+  
+
+<!-- New values after April 4 (Urban Expanses update) -->
+
+<WaitingForStartGameFinalizeTakingTooLong>Starting the round seems to be taking unusually long. Do you want to stop waiting for a response from the server and return to the server lobby?</WaitingForStartGameFinalizeTakingTooLong>
+  
+</infotexts>
