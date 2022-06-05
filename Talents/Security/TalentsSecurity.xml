@@ -123,9 +123,6 @@
   </Talent>
 
   <Talent identifier="enforcer">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.shotgunshell" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.additionalstattypeself">
       <Replace tag="[amount]" value="25" color="gui.green" />
       <Replace tag="[stattype]" value="stattypenames.maximumhealthmultiplier" color="gui.orange" />
@@ -196,9 +193,6 @@
   </Talent>
 
   <Talent identifier="bythebook">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.stungundartfulgurium" color="gui.orange" />
-    </Description>
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="1,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.bythebook">
       <Replace tag="[moneyamount]" value="1250" color="gui.green" />
@@ -215,9 +209,6 @@
   </Talent>
 
   <Talent identifier="navydiver">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.slipsuit" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.navydiver">
       <Replace tag="[attackpowerreduction]" value="25" color="gui.green" />
     </Description>
@@ -326,9 +317,6 @@
   </Talent>
 
   <Talent identifier="warlord">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.assaultrifle,entityname.assaultriflemagazine" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.chanceofextraweapondamage">
       <Replace tag="[probability]" value="5" color="gui.green" />
     </Description>
@@ -381,9 +369,6 @@
   </Talent>
 
   <Talent identifier="bootcamp">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.smgmagazine" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.bootcamp">
       <Replace tag="[amount]" value="35" color="gui.green" />
     </Description>
@@ -401,9 +386,6 @@
   </Talent>
 
   <Talent identifier="implacable">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.autoshotgun" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.cannotfallunconsciousforseconds">
       <Replace tag="[powerincrease]" value="25" color="gui.orange" />
       <Replace tag="[seconds]" value="15" color="gui.orange" />
@@ -494,9 +476,6 @@
   </Talent>
 
   <Talent identifier="munitionsexpertise">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.shotgunslugexplosive" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.extraskillfromcrafting">
       <Replace tag="[amount]" value="125" color="gui.green" />
       <Replace tag="[skillname]" value="skillname.weapons" color="gui.orange" />
@@ -527,9 +506,6 @@
 
   <Talent identifier="gunsmith">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.bandolier" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.crafthighqualityweapons">
       <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>

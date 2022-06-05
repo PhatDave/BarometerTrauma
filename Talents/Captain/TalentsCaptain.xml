@@ -1,9 +1,6 @@
 <Talents>
 
   <Talent identifier="handsomestranger">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.revolverround" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.increasereputationgains">
       <Replace tag="[value]" value="20" color="gui.green" />
     </Description>
@@ -110,9 +107,6 @@
   </Talent>
 
   <Talent identifier="sailorwithnoname">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.cigar" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.skillbonus">
       <Replace tag="[amount]" value="20" color="gui.green" />
       <Replace tag="[skillname]" value="skillname.medical" color="gui.orange" />
@@ -165,9 +159,6 @@
   </Talent>
   
   <Talent identifier="bountyhunter">
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.handcannon,entityname.handcannonround" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.bountyhunter">
       <Replace tag="[percentage]" value="25" color="gui.green" />
     </Description>

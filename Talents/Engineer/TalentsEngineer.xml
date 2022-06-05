@@ -2,9 +2,6 @@
 
   <Talent identifier="militaryapplications">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="7,6" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.depletedfuel,entityname.coilgunammoboxdepletedfuel" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.skillbonus">
       <Replace tag="[amount]" value="20" />
       <Replace tag="[skillname]" value="skillname.weapons" color="gui.orange" />
@@ -20,9 +17,6 @@
 
   <Talent identifier="strengthenedalloys">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="0,7" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.wrenchhardened,entityname.screwdriverhardened,entityname.crowbarhardened,entityname.divingknifehardened" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.skillbonus">
       <Replace tag="[amount]" value="20" color="gui.green" />
       <Replace tag="[skillname]" value="skillname.mechanical" color="gui.orange" />
@@ -40,9 +34,6 @@
 
   <Talent identifier="castledoctrine">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="1,7" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.dirtybomb" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.increaseattackpowertomonstersinsub">
       <Replace tag="[attackpowerincrease]" value="35" color="gui.green" />
     </Description>
@@ -59,9 +50,6 @@
   
   <Talent identifier="armsdealer">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,7" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.smgmagazinedepletedfuel,entityname.revolverrounddepletedfuel" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.gainitemsonmission" />
     <Description tag="talentdescription.gainitem">
       <Replace tag="[amount]" value="4" color="gui.green" />
@@ -88,9 +76,6 @@
 
   <Talent identifier="nuclearoption">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,7" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.nucleargun" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.nuclearoption" />
     <Description tag="talentdescription.singletriggeruntilmission" />
     <Description tag="talentdescription.additionalresistanceself">
@@ -122,9 +107,6 @@
 
   <Talent identifier="minorinmechanics">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,7" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.handheldelectricalmonitor" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.simultaneousskillgain">
       <Replace tag="[skillname1]" value="skillname.electrical" color="gui.orange" />
       <Replace tag="[skillname2]" value="skillname.mechanical" color="gui.orange" />
@@ -239,9 +221,6 @@
 
   <Talent identifier="phdinnuclearphysics">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,1" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.pucs" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.phdinnuclearphysics">
       <Replace tag="[powerincrease]" value="140" color="gui.green" />
     </Description>
@@ -348,9 +327,6 @@
 
   <Talent identifier="allseeingeye">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,0" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.thermalgoggles" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.gainalltalentsintree" />
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
@@ -419,9 +395,6 @@
   
   <Talent identifier="remotemonitor">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,1" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.reactorpda" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.crafthighqualityfuelrods">
       <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>
@@ -471,9 +444,6 @@
 
   <Talent identifier="collegeathletics">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,1" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.cargoscooter" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.additionalstattypeself">
       <Replace tag="[amount]" value="35" color="gui.green" />
       <Replace tag="[stattype]" value="stattypenames.maximumhealthmultiplier" color="gui.orange" />
@@ -498,9 +468,6 @@
 
   <Talent identifier="hazardousmaterials">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,0" sheetelementsize="128,128" />
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.fulguriumfuelrodvolatile" color="gui.orange" />
-    </Description>
     <Description tag="talentdescription.hazardousmaterials" />
     <AbilityGroupEffect abilityeffecttype="OnOpenItemContainer">
       <Conditions>
