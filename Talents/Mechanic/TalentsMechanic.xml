@@ -1,30 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Talents>
 
   <Talent identifier="tinkerer">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,1" sheetelementsize="128,128"/>
-    <Description tag="talentdescription.tinker.tutorial"/>
-    <Description linebreak="true"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.tinker.tutorial" />
+    <Description linebreak="true" />
     <Description tag="talentdescription.tinker.pump">
-      <Replace tag="[speedincrease]" value="400" color="gui.green"/>
+      <Replace tag="[speedincrease]" value="400" color="gui.green" />
     </Description>
     <Description tag="talentdescription.tinker.engine">
-      <Replace tag="[speedincrease]" value="150" color="gui.green"/>
+      <Replace tag="[speedincrease]" value="150" color="gui.green" />
     </Description>
     <Description tag="talentdescription.tinker.loader">
-      <Replace tag="[damageincrease]" value="20" color="gui.green"/>
-      <Replace tag="[powercostreduction]" value="20" color="gui.green"/>
+      <Replace tag="[damageincrease]" value="20" color="gui.green" />
+      <Replace tag="[powercostreduction]" value="20" color="gui.green" />
     </Description>
-    <Description linebreak="true"/>
-    <Description tag="talentdescription.tinker.reminder"/>
+    <Description linebreak="true" />
+    <Description tag="talentdescription.tinker.reminder" />
     <Description tag="talentdescription.tinker.duration">
-      <Replace tag="[duration]" value="10" color="gui.green"/>
-      <Replace tag="[cooldown]" value="25" color="gui.green"/>
+      <Replace tag="[duration]" value="10" color="gui.green" />
+      <Replace tag="[cooldown]" value="25" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGiveFlag flagtype="CanTinker" />
-        <CharacterAbilityGiveStat stattype="TinkeringDuration" value="10"/>
+        <CharacterAbilityGiveStat stattype="TinkeringDuration" value="10" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnStopTinkering">
@@ -32,7 +31,7 @@
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="tinkerexhaustion" amount="25.0"/>
+              <Affliction identifier="tinkerexhaustion" amount="25.0" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -41,19 +40,19 @@
   </Talent>
 
   <Talent identifier="quickfix">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,1" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,1" sheetelementsize="128,128" />
     <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.repairpack" color="gui.orange"/>
+      <Replace tag="[itemname]" value="entityname.repairpack" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.quickfix">
-      <Replace tag="[experienceamount]" value="40" color="gui.green"/>
+      <Replace tag="[experienceamount]" value="40" color="gui.green" />
     </Description>
     <Description tag="talentdescription.maxtriggeruntilmission">
-      <Replace tag="[maxtrigger]" value="8" color="gui.green"/>
+      <Replace tag="[maxtrigger]" value="8" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAnyMissionCompleted">
       <Abilities>
-        <CharacterAbilityGivePermanentStat statidentifier="quickfix" value="8" giveonaddingfirsttime="true" setvalue="true"/>
+        <CharacterAbilityGivePermanentStat statidentifier="quickfix" value="8" giveonaddingfirsttime="true" setvalue="true" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnRepairComplete">
@@ -64,27 +63,27 @@
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="This">
-              <GiveExperience amount="40"/>
+              <GiveExperience amount="40" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>     
         <CharacterAbilityGivePermanentStat statidentifier="quickfix" value="-1" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="repairpack"/>
+    <AddedRecipe itemidentifier="repairpack" />
   </Talent>
   
   <Talent identifier="massproduction">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,1" sheetelementsize="128,128" />
     <Description tag="talentdescription.tinker.fabricatoranddeconstructor">
-      <Replace tag="[speedincrease]" value="250" color="gui.green"/>
+      <Replace tag="[speedincrease]" value="250" color="gui.green" />
     </Description>
     <Description tag="talentdescription.extraskillfromcraftingany">
-      <Replace tag="[amount]" value="75" color="gui.green"/>
+      <Replace tag="[amount]" value="75" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnItemFabricationSkillGain">
       <Abilities>
-        <CharacterAbilityModifyValue multiplyvalue="1.75"/>
+        <CharacterAbilityModifyValue multiplyvalue="1.75" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="None">
@@ -95,78 +94,78 @@
   </Talent>
 
   <Talent identifier="hullsealer">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,2" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,2" sheetelementsize="128,128" />
     <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.fixfoamgrenade" color="gui.orange"/>
+      <Replace tag="[itemname]" value="entityname.fixfoamgrenade" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.tinker.durationincrease">
-      <Replace tag="[seconds]" value="5" color="gui.green"/>
+      <Replace tag="[seconds]" value="5" color="gui.green" />
     </Description>
-    <AddedRecipe itemidentifier="fixfoamgrenade"/>
+    <AddedRecipe itemidentifier="fixfoamgrenade" />
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="TinkeringDuration" value="5"/>
+        <CharacterAbilityGiveStat stattype="TinkeringDuration" value="5" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="fixfoamgrenade"/>
+    <AddedRecipe itemidentifier="fixfoamgrenade" />
   </Talent>
 
   <Talent identifier="overclocking">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,1" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,1" sheetelementsize="128,128" />
     <Description tag="talentdescription.tinker.overclocking">
-      <Replace tag="[tinkerincrease]" value="50" color="gui.green"/>
+      <Replace tag="[tinkerincrease]" value="50" color="gui.green" />
     </Description>
     <Description tag="talentdescription.tinker.cooldownreduction">
-      <Replace tag="[seconds]" value="12.5" color="gui.green"/>
+      <Replace tag="[seconds]" value="12.5" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="TinkeringStrength" value="0.5"/>
-        <CharacterAbilityGiveStat stattype="TinkeringDamage" value="1"/>
+        <CharacterAbilityGiveStat stattype="TinkeringStrength" value="0.5" />
+        <CharacterAbilityGiveStat stattype="TinkeringDamage" value="1" />
         <CharacterAbilityGiveResistance resistance="tinkerexhaustion" multiplier="0.5" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
 
   <Talent identifier="letitdrain">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,2" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,2" sheetelementsize="128,128" />
     <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.portablepump" color="gui.orange"/>
+      <Replace tag="[itemname]" value="entityname.portablepump" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.letitdrainreminder">
-      <Replace tag="[itemcount]" value="2" color="gui.green"/>
+      <Replace tag="[itemcount]" value="2" color="gui.green" />
     </Description>
-    <Description tag="talentdescription.tinker.suppliespower"/>
+    <Description tag="talentdescription.tinker.suppliespower" />
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGiveFlag flagtype="TinkeringPowersDevices" />
         <CharacterAbilityGivePermanentStat statidentifier="portablepump" stattype="MaxAttachableCount" value="2" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="portablepump"/>
+    <AddedRecipe itemidentifier="portablepump" />
   </Talent>
   
   <Talent identifier="scrounger">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.findadditionalscrap">
-      <Replace tag="[probability]" value="40" color="gui.green"/>
+      <Replace tag="[probability]" value="40" color="gui.green" />
     </Description>
     <Description tag="talentdescription.scrounger">
-      <Replace tag="[experienceamount]" value="50" color="gui.green"/>
+      <Replace tag="[experienceamount]" value="50" color="gui.green" />
     </Description>
     <Description tag="talentdescription.gainforcedoorsopenspeed">
-      <Replace tag="[amount]" value="50" color="gui.green"/>
+      <Replace tag="[amount]" value="50" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnOpenItemContainer">
       <Conditions>
-        <AbilityConditionItemInSubmarine submarinetype="Wreck"/>
-        <AbilityConditionItem tags="container"/>
+        <AbilityConditionItemInSubmarine submarinetype="Wreck" />
+        <AbilityConditionItem tags="container" />
       </Conditions>
       <Abilities>
         <CharacterAbilitySpawnItemsToContainer randomchance="0.4" oncepercontainer="true">
           <StatusEffects>
-            <StatusEffect type="OnAbility" target="UseTarget" >
-              <SpawnItem identifiers="scrap" spawnposition="ThisInventory" spawnifcantbecontained="false"/>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <SpawnItem identifiers="scrap" spawnposition="ThisInventory" spawnifcantbecontained="false" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilitySpawnItemsToContainer>
@@ -174,13 +173,13 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnItemDeconstructed">
       <Conditions>
-        <AbilityConditionItem identifiers="scrap"/>
+        <AbilityConditionItem identifiers="scrap" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="This">
-              <GiveExperience amount="50"/>
+              <GiveExperience amount="50" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -197,10 +196,10 @@
   </Talent>
 
   <Talent identifier="crisismanagement">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,2" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,2" sheetelementsize="128,128" />
     <Description tag="talentdescription.crisismanagement">
-      <Replace tag="[statamount1]" value="75" color="gui.green"/>
-      <Replace tag="[statamount2]" value="75" color="gui.green"/>
+      <Replace tag="[statamount1]" value="75" color="gui.green" />
+      <Replace tag="[statamount2]" value="75" color="gui.green" />
     </Description>
     <AbilityGroupInterval interval="0.5">
       <Abilities>
@@ -211,105 +210,105 @@
   </Talent>
 
   <Talent identifier="hullfixer">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,2" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,2" sheetelementsize="128,128" />
     <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.handheldstatusmonitor" color="gui.orange"/>
+      <Replace tag="[itemname]" value="entityname.handheldstatusmonitor" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.crafthighqualityrepairtools">
-      <Replace tag="[qualitybonus]" value="1" color="gui.green"/>
+      <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>
     <Description tag="talentdescription.gainstructurerepairspeed">
-      <Replace tag="[amount]" value="25" color="gui.green"/>
+      <Replace tag="[amount]" value="25" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="RepairToolStructureRepairMultiplier" value="0.25"/>
+        <CharacterAbilityGiveStat stattype="RepairToolStructureRepairMultiplier" value="0.25" />
         <CharacterAbilityGivePermanentStat statidentifier="cuttingequipment" stattype="IncreaseFabricationQuality" value="1" />
         <CharacterAbilityGivePermanentStat statidentifier="weldingequipment" stattype="IncreaseFabricationQuality" value="1" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="handheldstatusmonitor"/>
+    <AddedRecipe itemidentifier="handheldstatusmonitor" />
   </Talent>
 
   <Talent identifier="miner">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.miner">
-      <Replace tag="[probability]" value="50" color="gui.green"/>
+      <Replace tag="[probability]" value="50" color="gui.green" />
     </Description>
     <Description tag="talentdescription.gainstructurecutterdamage">
-      <Replace tag="[amount]" value="100" color="gui.green"/>
+      <Replace tag="[amount]" value="100" color="gui.green" />
     </Description>
     <Description tag="talentdescription.gainoredetachspeed">
-      <Replace tag="[amount]" value="100" color="gui.green"/>
+      <Replace tag="[amount]" value="100" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="RepairToolDeattachTimeMultiplier" value="1"/>
-        <CharacterAbilityGiveStat stattype="RepairToolStructureDamageMultiplier" value="1"/>
+        <CharacterAbilityGiveStat stattype="RepairToolDeattachTimeMultiplier" value="1" />
+        <CharacterAbilityGiveStat stattype="RepairToolStructureDamageMultiplier" value="1" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnItemDeconstructedMaterial">
       <Conditions>
-        <AbilityConditionServerRandom randomchance="0.5"/>
-        <AbilityConditionItem tags="ore"/>
+        <AbilityConditionServerRandom randomchance="0.5" />
+        <AbilityConditionItem tags="ore" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyValue multiplyvalue="2"/>
+        <CharacterAbilityModifyValue multiplyvalue="2" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
 
   <Talent identifier="demolitionsexpert">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.skillbonus">
-      <Replace tag="[amount]" value="25" color="gui.green"/>
-      <Replace tag="[skillname]" value="skillname.weapons" color="gui.orange"/>
+      <Replace tag="[amount]" value="25" color="gui.green" />
+      <Replace tag="[skillname]" value="skillname.weapons" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.crafthighqualityexplosives">
-      <Replace tag="[qualitybonus]" value="1" color="gui.green"/>
+      <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="25"/>
+        <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="25" />
         <CharacterAbilityGivePermanentStat statidentifier="demolitionsexpert" stattype="IncreaseFabricationQuality" value="1" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
 
   <Talent identifier="cannedheat">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.crafthighqualitytanks">
-      <Replace tag="[qualitybonus]" value="1" color="gui.green"/>
+      <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>
     <Description tag="talentdescription.cannedheat">
-      <Replace tag="[allyexperienceamount]" value="15" color="gui.green"/>
-      <Replace tag="[experienceamount]" value="10" color="gui.green"/>
+      <Replace tag="[allyexperienceamount]" value="15" color="gui.green" />
+      <Replace tag="[experienceamount]" value="10" color="gui.green" />
     </Description>
     <Description tag="talentdescription.maxtriggeruntilmission">
-      <Replace tag="[maxtrigger]" value="20" color="gui.green"/>
+      <Replace tag="[maxtrigger]" value="20" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAnyMissionCompleted">
       <Abilities>
-        <CharacterAbilityGivePermanentStat statidentifier="cannedheat" value="20" giveonaddingfirsttime="true" setvalue="true"/>
+        <CharacterAbilityGivePermanentStat statidentifier="cannedheat" value="20" giveonaddingfirsttime="true" setvalue="true" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnUseRangedWeapon">
       <Conditions>
-        <AbilityConditionItem identifiers="accordion"/>
+        <AbilityConditionItem identifiers="accordion" />
         <AbilityConditionHasPermanentStat statidentifier="cannedheat" min="1" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="This">
-              <GiveExperience amount="10"/>
+              <GiveExperience amount="10" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
         <CharacterAbilityApplyStatusEffectsToNearestAlly>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character">
-              <GiveExperience amount="15"/>
+              <GiveExperience amount="15" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffectsToNearestAlly>
@@ -326,18 +325,18 @@
   </Talent>
 
   <Talent identifier="elbowgrease">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.elbowgrease">
-      <Replace tag="[statamount]" value="40" color="gui.green"/>
-      <Replace tag="[skillamount]" value="3" color="gui.green"/>
+      <Replace tag="[statamount]" value="40" color="gui.green" />
+      <Replace tag="[skillamount]" value="3" color="gui.green" />
     </Description>
     <Description tag="talentdescription.maxskillfromtalent">
-      <Replace tag="[skillamount]" value="100" color="gui.green"/>
+      <Replace tag="[skillamount]" value="100" color="gui.green" />
     </Description>
-    <Description tag="talentdescription.bonuslostondeath"/>
+    <Description tag="talentdescription.bonuslostondeath" />
     <AbilityGroupEffect abilityeffecttype="OnItemDeconstructed">
       <Conditions>
-        <AbilityConditionItem identifiers="scrap"/>
+        <AbilityConditionItem identifiers="scrap" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGivePermanentStat statidentifier="elbowgrease" stattype="MechanicalSkillBonus" value="3" maxvalue="100" removeondeath="true" />
@@ -345,30 +344,30 @@
     </AbilityGroupEffect>
     <AbilityGroupInterval interval="0.5">
       <Abilities>
-        <CharacterAbilityModifyStatToSkill stattype="MeleeAttackMultiplier" maxvalue="0.4" skillidentifier="mechanical"/>
-        <CharacterAbilityModifyStatToSkill stattype="MaximumHealthMultiplier" maxvalue="0.4" skillidentifier="mechanical"/>
+        <CharacterAbilityModifyStatToSkill stattype="MeleeAttackMultiplier" maxvalue="0.4" skillidentifier="mechanical" />
+        <CharacterAbilityModifyStatToSkill stattype="MaximumHealthMultiplier" maxvalue="0.4" skillidentifier="mechanical" />
       </Abilities>
     </AbilityGroupInterval>
   </Talent>
 
   <Talent identifier="scrapsavant">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="6,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.scrapsavant">
-      <Replace tag="[scrapamount]" value="3" color="gui.green"/>
-      <Replace tag="[experienceamount]" value="150" color="gui.green"/>
+      <Replace tag="[scrapamount]" value="3" color="gui.green" />
+      <Replace tag="[experienceamount]" value="150" color="gui.green" />
     </Description>
     <Description tag="talentdescription.findadditionalscrap">
-      <Replace tag="[probability]" value="80" color="gui.green"/>
+      <Replace tag="[probability]" value="80" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnItemFabricatedAmount">
       <Conditions>
-        <AbilityConditionItem identifiers="oxygeniteshard,physicorium,dementonite,incendium,fulgurium,sulphuriteshard"/>
+        <AbilityConditionItem identifiers="oxygeniteshard,physicorium,dementonite,incendium,fulgurium,sulphuriteshard" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="This">
-              <GiveExperience amount="150"/>
+              <GiveExperience amount="150" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -376,45 +375,45 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnOpenItemContainer">
       <Conditions>
-        <AbilityConditionItemInSubmarine submarinetype="Wreck"/>
-        <AbilityConditionItem tags="container"/>
+        <AbilityConditionItemInSubmarine submarinetype="Wreck" />
+        <AbilityConditionItem tags="container" />
       </Conditions>
       <Abilities>
         <CharacterAbilitySpawnItemsToContainer randomchance="0.8" oncepercontainer="true">
           <StatusEffects>
-            <StatusEffect type="OnAbility" target="UseTarget" >
+            <StatusEffect type="OnAbility" target="UseTarget">
               <SpawnItem identifiers="scrap" spawnposition="ThisInventory" spawnifcantbecontained="false" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilitySpawnItemsToContainer>
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="oxygeniteshard"/>
-    <AddedRecipe itemidentifier="physicorium"/>
-    <AddedRecipe itemidentifier="dementonite"/>
-    <AddedRecipe itemidentifier="incendium"/>
-    <AddedRecipe itemidentifier="fulgurium"/>
-    <AddedRecipe itemidentifier="sulphuriteshard"/>
+    <AddedRecipe itemidentifier="oxygeniteshard" />
+    <AddedRecipe itemidentifier="physicorium" />
+    <AddedRecipe itemidentifier="dementonite" />
+    <AddedRecipe itemidentifier="incendium" />
+    <AddedRecipe itemidentifier="fulgurium" />
+    <AddedRecipe itemidentifier="sulphuriteshard" />
   </Talent>
 
   <Talent identifier="safetyfirst">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,2" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,2" sheetelementsize="128,128" />
     <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.safetyharness" color="gui.orange"/>
+      <Replace tag="[itemname]" value="entityname.safetyharness" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.simultaneousskillgain">
-      <Replace tag="[skillname1]" value="skillname.mechanical" color="gui.orange"/>
-      <Replace tag="[skillname2]" value="skillname.electrical" color="gui.orange"/>
+      <Replace tag="[skillname1]" value="skillname.mechanical" color="gui.orange" />
+      <Replace tag="[skillname2]" value="skillname.electrical" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.gaindoubleskillatskill">
-      <Replace tag="[skillname1]" value="skillname.mechanical" color="gui.orange"/>
-      <Replace tag="[skilltotal]" value="100" color="gui.orange"/>
-      <Replace tag="[skillname2]" value="skillname.electrical" color="gui.orange"/>
+      <Replace tag="[skillname1]" value="skillname.mechanical" color="gui.orange" />
+      <Replace tag="[skilltotal]" value="100" color="gui.orange" />
+      <Replace tag="[skillname2]" value="skillname.electrical" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnGainSkillPoint">
       <Conditions>
-        <AbilityConditionSkill skillidentifier="electrical"/>
-        <AbilityConditionHasSkill skillidentifier="mechanical" minvalue="100"/>
+        <AbilityConditionSkill skillidentifier="electrical" />
+        <AbilityConditionHasSkill skillidentifier="mechanical" minvalue="100" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGainSimultaneousSkill skillidentifier="electrical" />
@@ -422,38 +421,38 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnGainSkillPoint">
       <Conditions>
-        <AbilityConditionSkill skillidentifier="mechanical"/>
+        <AbilityConditionSkill skillidentifier="mechanical" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGainSimultaneousSkill skillidentifier="electrical" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="safetyharness"/>
+    <AddedRecipe itemidentifier="safetyharness" />
   </Talent>
 
   <Talent identifier="aggressiveengineering">
-    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,0" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.aggressiveengineering">
-      <Replace tag="[probability]" value="30" color="gui.green"/>
-      <Replace tag="[powerincrease]" value="200" color="gui.green"/>
+      <Replace tag="[probability]" value="30" color="gui.green" />
+      <Replace tag="[powerincrease]" value="200" color="gui.green" />
     </Description>
     <Description tag="talentdescription.increasemaxrepairmechanical">
-      <Replace tag="[percentage]" value="20" color="gui.green"/>
+      <Replace tag="[percentage]" value="20" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="MaxRepairConditionMultiplierMechanical" value="0.20"/>
+        <CharacterAbilityGiveStat stattype="MaxRepairConditionMultiplierMechanical" value="0.20" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
-        <AbilityConditionServerRandom randomchance="0.3"/>
-        <AbilityConditionAttackData tags="wrenchitem"/>
+        <AbilityConditionServerRandom randomchance="0.3" />
+        <AbilityConditionAttackData tags="wrenchitem" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="2">
           <Afflictions>
-            <Affliction identifier="stun" strength="0.5"/>
+            <Affliction identifier="stun" strength="0.5" />
           </Afflictions>
         </CharacterAbilityModifyAttackData>
       </Abilities>
@@ -461,11 +460,11 @@
   </Talent>
   
   <Talent identifier="pyromaniac">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,2" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,2" sheetelementsize="128,128" />
     <Description tag="talentdescription.pyromaniac">
-      <Replace tag="[physicaldamagereduction]" value="40" color="gui.green"/>
-      <Replace tag="[seconds]" value="5" color="gui.green"/>
-      <Replace tag="[burnincrease]" value="25" color="gui.green"/>
+      <Replace tag="[physicaldamagereduction]" value="40" color="gui.green" />
+      <Replace tag="[seconds]" value="5" color="gui.green" />
+      <Replace tag="[burnincrease]" value="25" color="gui.green" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Abilities>
@@ -474,14 +473,14 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
       <Conditions>
-        <AbilityConditionAffliction afflictions="burn"/>
-        <AbilityConditionCharacter targettypes="Enemy,Alive"/>
+        <AbilityConditionAffliction afflictions="burn" />
+        <AbilityConditionCharacter targettypes="Enemy,Alive" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects applytoself="true">
           <StatusEffects>
             <StatusEffect type="OnAbility" target="This" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="pyromania" amount="5.0"/>
+              <Affliction identifier="pyromania" amount="5.0" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
@@ -490,27 +489,27 @@
   </Talent>
 
   <Talent identifier="artisansmith">
-    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,3" sheetelementsize="128,128"/>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,3" sheetelementsize="128,128" />
     <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.wrenchdementonite,entityname.crowbardementonite,entityname.screwdriverdementonite,entityname.divingknifedementonite" color="gui.orange"/>
+      <Replace tag="[itemname]" value="entityname.wrenchdementonite,entityname.crowbardementonite,entityname.screwdriverdementonite,entityname.divingknifedementonite" color="gui.orange" />
     </Description>
     <Description tag="talentdescription.crafthighqualitytools">
-      <Replace tag="[qualitybonus]" value="1" color="gui.green"/>
+      <Replace tag="[qualitybonus]" value="1" color="gui.green" />
     </Description>
     <Description tag="talentdescription.skillbonus">
-      <Replace tag="[amount]" value="30" color="gui.green"/>
-      <Replace tag="[skillname]" value="skillname.mechanical" color="gui.orange"/>
+      <Replace tag="[amount]" value="30" color="gui.green" />
+      <Replace tag="[skillname]" value="skillname.mechanical" color="gui.orange" />
     </Description>
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
         <CharacterAbilityGivePermanentStat statidentifier="simpletool" stattype="IncreaseFabricationQuality" value="1" />
-        <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="30"/>
+        <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="30" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="wrenchdementonite"/>
-    <AddedRecipe itemidentifier="crowbardementonite"/>
-    <AddedRecipe itemidentifier="screwdriverdementonite"/>
-    <AddedRecipe itemidentifier="divingknifedementonite"/>
+    <AddedRecipe itemidentifier="wrenchdementonite" />
+    <AddedRecipe itemidentifier="crowbardementonite" />
+    <AddedRecipe itemidentifier="screwdriverdementonite" />
+    <AddedRecipe itemidentifier="divingknifedementonite" />
   </Talent>
 
 </Talents>
