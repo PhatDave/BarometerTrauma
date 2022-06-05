@@ -82,7 +82,7 @@
       <QualityStat stattype="FirepowerMultiplier" value="0.1" />
     </Quality>
   </Item>
-  <Item name="" identifier="coalitioncommendation" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="coalitioncommendation" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="64" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="storagecab,crewcab" />
     <Price baseprice="300" buyingpricemodifier="5" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" maxavailable="0" />
@@ -111,7 +111,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="coalitionmedal" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="coalitionmedal" category="Equipment" Tags="smallitem" cargocontaineridentifier="metalcrate" maxstacksize="64" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="storagecab,crewcab" />
     <PreferredContainer secondary="locker" />
     <Price baseprice="600" buyingpricemodifier="5" minleveldifficulty="65">

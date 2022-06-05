@@ -251,7 +251,7 @@
     </Upgrade>
   </Item>
   
-  <Item name="" identifier="weldingfueltank" category="Equipment,Fuel" maxstacksize="8" Tags="smallitem,weldingtoolfuel,weldingfuel" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="weldingfueltank" category="Equipment,Fuel" maxstacksize="64" Tags="smallitem,weldingtoolfuel,weldingfuel" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="weldingtool,flamer" spawnprobability="1"/>
     <PreferredContainer primary="engcab" minamount="3" maxamount="6" spawnprobability="1"/>
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="0" maxamount="3" spawnprobability="0.2"/>
@@ -300,7 +300,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   
-  <Item name="" identifier="incendiumfueltank" category="Equipment,Fuel" maxstacksize="8" Tags="smallitem,weldingtoolfuel,weldingfuel" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="incendiumfueltank" category="Equipment,Fuel" maxstacksize="64" Tags="smallitem,weldingtoolfuel,weldingfuel" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab"/>
     <PreferredContainer secondary="wreckstoragecab" minamount="0" maxamount="2" spawnprobability="0.1"/>
     <PreferredContainer secondary="locker"/>
@@ -725,7 +725,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   
-  <Item name="" identifier="flare" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
+  <Item name="" identifier="flare" category="Equipment" maxstacksize="64" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="1"/>
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.5"/>
     <PreferredContainer primary="wrecksupplycab" minamount="1" maxamount="1" spawnprobability="0.25"/>
@@ -769,7 +769,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
     
-  <Item name="" identifier="alienflare" category="Equipment,Alien" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft">
+  <Item name="" identifier="alienflare" category="Equipment,Alien" maxstacksize="64" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft">
     <PreferredContainer primary="divingcab, suppliescabinet"/>
     <PreferredContainer secondary="locker"/>
     <Price baseprice="200" sold="false">
@@ -918,7 +918,7 @@
     <aitarget sightrange="0" soundrange="0" />
   </Item>
 
-  <Item name="" identifier="oxygentank" category="Diving,Equipment" maxstacksize="8" Tags="smallitem,oxygensource,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" allowdroppingonswap="true">
+  <Item name="" identifier="oxygentank" category="Diving,Equipment" maxstacksize="64" Tags="smallitem,oxygensource,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" allowdroppingonswap="true">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="75">
       <Price storeidentifier="merchantoutpost" minavailable="10"/>
@@ -964,7 +964,7 @@
     </Quality>
   </Item>
 
-  <Item name="" identifier="oxygenitetank" category="Diving,Equipment" maxstacksize="8" Tags="smallitem,oxygensource" description="" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="oxygenitetank" category="Diving,Equipment" maxstacksize="64" Tags="smallitem,oxygensource" description="" scale="0.5" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="175" displaynonempty="true">
       <Price storeidentifier="merchantoutpost" sold="false" />
@@ -1005,7 +1005,7 @@
     </Quality>
   </Item>
 
-  <Item name="" identifier="fuelrod" Category="Fuel" Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5">
+  <Item name="" identifier="fuelrod" Category="Fuel" Tags="smallitem,reactorfuel" maxstacksize="64" cargocontaineridentifier="metalcrate" scale="0.5">
     <PreferredContainer primary="reactorcab" minamount="2" maxamount="5" spawnprobability="1" />
     <PreferredContainer secondary="wreckreactorcab,abandonedstoragecab" minamount="1" maxamount="3" spawnprobability="1"/>
     <PreferredContainer secondary="nucleargun" minamount="1" maxamount="1" spawnprobability="1"/>
@@ -1054,7 +1054,7 @@
     </Quality>
   </Item>
 
-  <Item name="" identifier="fulguriumfuelrod" Category="Fuel" Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" health="150" scale="0.5">
+  <Item name="" identifier="fulguriumfuelrod" Category="Fuel" Tags="smallitem,reactorfuel" maxstacksize="64" cargocontaineridentifier="metalcrate" health="150" scale="0.5">
     <PreferredContainer primary="reactorcab,storagecab" />
     <PreferredContainer secondary="wreckreactorcab" minamount="0" maxamount="1" spawnprobability="0.2"/>
     <PreferredContainer secondary="locker"/>
@@ -1097,7 +1097,7 @@
     </Quality>
   </Item>
 
-  <Item name="" identifier="thoriumfuelrod" Category="Fuel" Tags="smallitem,reactorfuel" maxstacksize="8" cargocontaineridentifier="metalcrate" health="200" scale="0.5">
+  <Item name="" identifier="thoriumfuelrod" Category="Fuel" Tags="smallitem,reactorfuel" maxstacksize="64" cargocontaineridentifier="metalcrate" health="200" scale="0.5">
     <PreferredContainer primary="reactorcab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <PreferredContainer secondary="wreckreactorcab,abandonedstoragecab" minamount="0" maxamount="2" spawnprobability="0.2"/>
     <PreferredContainer secondary="locker"/>
@@ -1145,7 +1145,7 @@
     </Quality>
   </Item>
 
-  <redpaint name="" identifier="redpaint" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <redpaint name="" identifier="redpaint" category="Misc" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
@@ -1184,7 +1184,7 @@
     </Throwable>
   </redpaint>
 
-  <greenpaint name="" identifier="greenpaint" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255" scale="0.5" impactsoundtag="impact_metal_light"  impacttolerance="6">
+  <greenpaint name="" identifier="greenpaint" category="Misc" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255" scale="0.5" impactsoundtag="impact_metal_light"  impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
@@ -1223,7 +1223,7 @@
     </Throwable>
   </greenpaint>
 
-  <bluepaint name="" identifier="bluepaint" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,0,128,255" InventoryIconColor="0,0,255,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <bluepaint name="" identifier="bluepaint" category="Misc" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="0,0,128,255" InventoryIconColor="0,0,255,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
@@ -1262,7 +1262,7 @@
     </Throwable>
   </bluepaint>
 
-  <blackpaint name="" identifier="blackpaint" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="20,20,20,255" InventoryIconColor="20,20,20,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <blackpaint name="" identifier="blackpaint" category="Misc" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="20,20,20,255" InventoryIconColor="20,20,20,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
@@ -1301,7 +1301,7 @@
     </Throwable>
   </blackpaint>
 
-  <whitepaint name="" identifier="whitepaint" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,128,128,255" InventoryIconColor="128,128,128,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+  <whitepaint name="" identifier="whitepaint" category="Misc" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint" spritecolor="128,128,128,255" InventoryIconColor="128,128,128,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
     <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25" />
     <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25" />
     <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075" />
@@ -1398,7 +1398,7 @@
     <aitarget sightrange="5000" soundrange="500" fadeouttime="5" />
   </Item>
 
-  <Item name="" identifier="glowstick" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
+  <Item name="" identifier="glowstick" category="Equipment" maxstacksize="64" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative" impactsoundtag="impact_soft" isshootable="true">
     <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="1"/>
     <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.5"/>
     <PreferredContainer primary="wrecksupplycab" minamount="1" maxamount="1" spawnprobability="0.25"/>

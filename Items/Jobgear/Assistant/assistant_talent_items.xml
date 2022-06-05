@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="skillbooksailorsguide" category="Misc" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="skillbooksailorsguide" category="Misc" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="64" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="storagecab,crewcab" />
     <Price baseprice="350" buyingpricemodifier="2.5" minleveldifficulty="40">
       <Price storeidentifier="merchantoutpost" maxavailable="1" />

@@ -105,7 +105,7 @@
     </ItemContainer>
   </Item>
 
-  <Item name="" identifier="pipetobacco" category="Misc" maxstacksize="8" Tags="smallitem,pipetobacco" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+  <Item name="" identifier="pipetobacco" category="Misc" maxstacksize="64" Tags="smallitem,pipetobacco" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
     <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
     <PreferredContainer primary="captainspipe" spawnprobability="1"/>
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>

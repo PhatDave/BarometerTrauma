@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="alienblood" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" RequireAimToUse="True">
+  <Item name="" identifier="alienblood" category="Material" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical" useinhealthinterface="true" scale="0.5" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />    
     <PreferredContainer primary="storageorgan" minamount="1" maxamount="2" spawnprobability="1"/>
     <PreferredContainer primary="toxcontainer,medcontainer,locker"/>
@@ -33,7 +33,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="huskeggs" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.5" RequireAimToUse="True">
+  <Item name="" identifier="huskeggs" category="Material" maxstacksize="64" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.5" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />    
     <PreferredContainer primary="toxcontainer" spawnprobability="0.5"/>
     <PreferredContainer primary="locker"/>
@@ -61,7 +61,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="swimbladder" description="" Tags="smallitem,chem,medical" cargocontaineridentifier="chemicalcrate" maxstacksize="8" category="Material" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="swimbladder" description="" Tags="smallitem,chem,medical" cargocontaineridentifier="chemicalcrate" maxstacksize="64" category="Material" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="250">
       <Price storeidentifier="merchantoutpost" sold="false" multiplier="0.9" />
@@ -82,7 +82,7 @@
     <Body width="40" height="45" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,-70" handle1="0,10" handle2="0,-10" />
   </Item>
-  <Item name="" identifier="adrenalinegland" Tags="smallitem,chem,medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" category="Material" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="adrenalinegland" Tags="smallitem,chem,medical" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" category="Material" scale="0.5" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="250">
       <Price storeidentifier="merchantoutpost" sold="false" multiplier="0.9" />

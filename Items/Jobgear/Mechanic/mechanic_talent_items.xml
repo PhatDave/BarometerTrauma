@@ -28,7 +28,7 @@
       <GuiFrame relativesize="0.4,0.4" anchor="CenterLeft" relativeoffset="0.006,-0.01" style="ItemUI" />
     </MiniMap>
   </Item>
-  <Item name="" identifier="repairpack" category="Equipment" maxstacksize="8" Tags="smallitem,tool,wrench,screwdriver" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5">
+  <Item name="" identifier="repairpack" category="Equipment" maxstacksize="64" Tags="smallitem,tool,wrench,screwdriver" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light" addedrepairspeedmultiplier="1.5">
     <PreferredContainer primary="engcab"/>
     <PreferredContainer secondary="locker" />
     <Price baseprice="43" sold="false">
@@ -283,7 +283,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="fixfoamgrenade" category="Equipment" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="fixfoamgrenade" category="Equipment" maxstacksize="64" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="engcab"/>
     <PreferredContainer secondary="locker" />
     <Price baseprice="95" sold="false">

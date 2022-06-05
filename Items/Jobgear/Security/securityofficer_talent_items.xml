@@ -43,7 +43,7 @@
       <RequiredItems items="shotgunammo" type="Contained" msg="ItemMsgAmmoRequired" />
       <RequiredSkill identifier="weapons" level="70" />
     </RangedWeapon>
-    <ItemContainer capacity="4" maxstacksize="8" itempos="27,10" iteminterval="0,-4" hideitems="true" containedstateindicatorstyle="bullet" ShowTotalStackCapacityInContainedStateIndicator="true">
+    <ItemContainer capacity="4" maxstacksize="64" itempos="27,10" iteminterval="0,-4" hideitems="true" containedstateindicatorstyle="bullet" ShowTotalStackCapacityInContainedStateIndicator="true">
       <Containable items="shotgunammo" />
     </ItemContainer>
     <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
@@ -274,7 +274,7 @@
     </Quality>
     <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
   </Item>
-  <Item name="" identifier="skillbooksubmarinewarfare" category="Misc" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="skillbooksubmarinewarfare" category="Misc" cargocontaineridentifier="metalcrate" Tags="smallitem,skillbook" maxstacksize="64" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="storagecab,crewcab" />
     <PreferredContainer primary="armcab" secondary="locker"/>
     <Price baseprice="350" buyingpricemodifier="2.5" minleveldifficulty="40">
@@ -345,7 +345,7 @@
       <StatValue stattype="WalkingSpeed" value="-0.6" />
     </Wearable>
   </Item>
-  <Item name="" identifier="stungundartfulgurium" category="Weapon" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,stungunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="stungundartfulgurium" category="Weapon" maxstacksize="64" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,stungunammo" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="armcab" />
     <PreferredContainer secondary="locker" />
     <Price baseprice="120" sold="false">

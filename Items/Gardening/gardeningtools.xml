@@ -66,7 +66,7 @@
     </RepairTool>
   </Item>
   
-  <Item name="" identifier="fertilizer" tags="fertilizer,smallitem" maxstacksize="8" category="Misc" scale="0.5" health="800">
+  <Item name="" identifier="fertilizer" tags="fertilizer,smallitem" maxstacksize="64" category="Misc" scale="0.5" health="800">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="910,128,87,125" depth="0.55" origin="0.5,0.5" />
     <Price baseprice="140">
       <Price storeidentifier="merchantoutpost" minavailable="1" />

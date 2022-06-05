@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="creepingorange" category="Material" maxstacksize="8" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5.5" allowasextracargo="true">
+  <Item name="" identifier="creepingorange" category="Material" maxstacksize="64" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5.5" allowasextracargo="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="971,649,43,55" origin="0.5,0.5" />
     <Body radius="30" density="5" />
     <Price baseprice="20" sold="false">
@@ -32,7 +32,7 @@
     <PreferredContainer primary="plantcontainer" secondary="locker"/>
   </Item>
   
-  <Item name="" identifier="tobaccobud" category="Material" maxstacksize="8" Tags="smallitem,plantitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="8" allowasextracargo="true">
+  <Item name="" identifier="tobaccobud" category="Material" maxstacksize="64" Tags="smallitem,plantitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="8" allowasextracargo="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="904,646,56,61" origin="0.5,0.5" />
     <Body radius="30" density="5" />
     <Price baseprice="40" sold="false">
@@ -61,7 +61,7 @@
     <PreferredContainer primary="plantcontainer" secondary="locker"/>
   </Item>
   
-  <Item name="" identifier="badraptorbane" descriptionidentifier="raptorbane" category="Material" maxstacksize="8" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="1" allowasextracargo="true">
+  <Item name="" identifier="badraptorbane" descriptionidentifier="raptorbane" category="Material" maxstacksize="64" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="1" allowasextracargo="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="907,838,44,50" origin="0.5,0.5" />
     <Body radius="30" density="7" />
     <Deconstruct time="35">
@@ -83,7 +83,7 @@
     <PreferredContainer primary="plantcontainer" secondary="locker"/>
   </Item>
   
-  <Item name="" identifier="saltbulb" category="Material" maxstacksize="8" Tags="smallitem,plantitem,explodesinwater" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
+  <Item name="" identifier="saltbulb" category="Material" maxstacksize="64" Tags="smallitem,plantitem,explodesinwater" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="968,712,49,55" origin="0.5,0.5" />
     <Body radius="30" density="5" />
     <Price baseprice="65" sold="false">
@@ -120,7 +120,7 @@
     <PreferredContainer primary="plantcontainer" secondary="locker"/>
   </Item>
 
-  <Item name="" identifier="raptorbane" category="Material" maxstacksize="8" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
+  <Item name="" identifier="raptorbane" category="Material" maxstacksize="64" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5" allowasextracargo="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="971,777,44,50" origin="0.5,0.5" />
     <Body radius="30" density="5" />
     <Price baseprice="40" sold="false">
@@ -150,7 +150,7 @@
     <PreferredContainer primary="plantcontainer" secondary="locker"/>
   </Item>
   
-  <Item name="" identifier="badcreepingorange" descriptionidentifier="creepingorange" category="Material" maxstacksize="8" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="1" allowasextracargo="true">
+  <Item name="" identifier="badcreepingorange" descriptionidentifier="creepingorange" category="Material" maxstacksize="64" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="1" allowasextracargo="true">
     <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="971,835,43,55" origin="0.5,0.5" />
     <Body radius="30" density="7" />
     <Deconstruct time="35">

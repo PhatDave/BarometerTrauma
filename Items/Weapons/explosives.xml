@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="uex" category="Weapon" description="" Scale="0.5" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+  <Item name="" identifier="uex" category="Weapon" description="" Scale="0.5" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="64" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.5"/>
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="2" spawnprobability="0.5"/>
     <PreferredContainer secondary="locker"/>
@@ -39,7 +39,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="c4block" category="Weapon" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+  <Item name="" identifier="c4block" category="Weapon" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="64" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.5"/>
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="2" spawnprobability="0.5"/>
     <PreferredContainer secondary="locker"/>
@@ -77,7 +77,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="compoundn" category="Weapon,Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+  <Item name="" identifier="compoundn" category="Weapon,Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="64" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.5"/>
     <PreferredContainer primary="secarmcab,armcab,storagecab"/>
     <PreferredContainer secondary="locker"/>
@@ -117,7 +117,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="volatilecompoundn" category="Weapon,Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+  <Item name="" identifier="volatilecompoundn" category="Weapon,Material" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="64" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.5"/>
     <PreferredContainer primary="secarmcab,armcab"/>
     <PreferredContainer secondary="locker"/>
@@ -156,7 +156,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="ic4block" description="" category="Weapon" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="8" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
+  <Item name="" identifier="ic4block" description="" category="Weapon" Tags="smallitem,explosive,demolitionsexpert" maxstacksize="64" Scale="0.5" cargocontaineridentifier="explosivecrate" impactsoundtag="impact_soft">
     <Upgrade gameversion="0.9.3.0" scale="0.5"/>
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="2" spawnprobability="0.5"/>
     <PreferredContainer secondary="locker"/>
@@ -230,7 +230,7 @@
     </ConnectionPanel>
   </Item>
   
-  <Item name="" identifier="nitroglycerin" category="Material,Weapon" maxstacksize="8" description="" spritecolor="1.0,1.0,1.0,1.0" containercolor="1.0,1.0,1.0,1.0" cargocontaineridentifier="explosivecrate" Tags="smallitem,chem,medical" impacttolerance="6" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="nitroglycerin" category="Material,Weapon" maxstacksize="64" description="" spritecolor="1.0,1.0,1.0,1.0" containercolor="1.0,1.0,1.0,1.0" cargocontaineridentifier="explosivecrate" Tags="smallitem,chem,medical" impacttolerance="6" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab,armcab,storagecab"/>
     <PreferredContainer secondary="locker"/>
     <Price baseprice="150">

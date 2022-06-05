@@ -167,7 +167,7 @@
       <Price storeidentifier="merchantmine" />
     </Price>
   </Item>
-  <Item name="" identifier="alientrinket1" category="Alien" maxstacksize="8" Tags="alien, smallitem,smallalienartifact" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="alientrinket1" category="Alien" maxstacksize="64" Tags="alien, smallitem,smallalienartifact" scale="0.5" impactsoundtag="impact_metal_heavy">
     <Upgrade gameversion="0.9.3.1" scale="0.5" />
     <Price baseprice="300" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="0.85" />
@@ -186,7 +186,7 @@
     <Body width="70" height="70" density="20" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"></Holdable>
   </Item>
-  <Item name="" identifier="alientrinket2" category="Alien" maxstacksize="8" Tags="alien, smallitem,smallalienartifact" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="alientrinket2" category="Alien" maxstacksize="64" Tags="alien, smallitem,smallalienartifact" scale="0.5" impactsoundtag="impact_metal_heavy">
     <Upgrade gameversion="0.9.3.1" scale="0.5" />
     <Price baseprice="300" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="0.85" />
@@ -205,7 +205,7 @@
     <Body width="80" height="72" density="20" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect"></Holdable>
   </Item>
-  <Item name="" identifier="alientrinket3" category="Alien" maxstacksize="8" Tags="alien, smallitem,smallalienartifact" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="alientrinket3" category="Alien" maxstacksize="64" Tags="alien, smallitem,smallalienartifact" scale="0.5" impactsoundtag="impact_metal_heavy">
     <Upgrade gameversion="0.9.3.1" scale="0.5" />
     <Price baseprice="300" sold="false">
       <Price storeidentifier="merchantoutpost" multiplier="0.85" />
@@ -224,7 +224,7 @@
     <Body width="80" height="75" density="20" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="" identifier="oxygeniteshard" category="Alien,Material" cargocontaineridentifier="explosivecrate" maxstacksize="8" scale="0.5" tags="alien,smallitem" impacttolerance="8" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="oxygeniteshard" category="Alien,Material" cargocontaineridentifier="explosivecrate" maxstacksize="64" scale="0.5" tags="alien,smallitem" impacttolerance="8" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.15.22.1" Tags="alien,smallitem" />
     <Price baseprice="200" minavailable="1">
       <Price storeidentifier="merchantoutpost" sold="false" />
@@ -264,7 +264,7 @@
       </StatusEffect>
     </Throwable>
   </Item>
-  <Item name="" identifier="sulphuriteshard" category="Alien,Material" cargocontaineridentifier="metalcrate" maxstacksize="8" scale="0.5" tags="alien,smallitem" impacttolerance="8" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="sulphuriteshard" category="Alien,Material" cargocontaineridentifier="metalcrate" maxstacksize="64" scale="0.5" tags="alien,smallitem" impacttolerance="8" impactsoundtag="impact_metal_light">
     <Price baseprice="200" minavailable="1">
       <Price storeidentifier="merchantoutpost" sold="false" />
       <Price storeidentifier="merchantcity" sold="false" />
@@ -674,7 +674,7 @@
       <output name="power_out" displayname="connection.powerout" />
     </ConnectionPanel>
   </Item>
-  <Item name="" identifier="alienpowercell" category="Alien,Equipment" maxstacksize="8" Tags="alien,smallitem,alienpowercell" scale="0.3" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="alienpowercell" category="Alien,Equipment" maxstacksize="64" Tags="alien,smallitem,alienpowercell" scale="0.3" impactsoundtag="impact_metal_light">
     <Price baseprice="150" sold="false">
       <Price storeidentifier="merchantoutpost" />
       <Price storeidentifier="merchantcity" />

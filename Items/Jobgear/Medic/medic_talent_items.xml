@@ -30,7 +30,7 @@
       <sprite name="Headset Wearable" texture="Content/Items/JobGear/TalentGear.png" sourcerect="253,305,76,58" limb="Head" hidelimb="false" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hideotherwearables="false" origin="0.5,0.5" />
     </Wearable>
   </Item>
-  <Item name="" identifier="skillbookeuropanmedicine" category="Misc" Tags="smallitem,skillbook" maxstacksize="8" scale="0.5" impactsoundtag="impact_soft">
+  <Item name="" identifier="skillbookeuropanmedicine" category="Misc" Tags="smallitem,skillbook" maxstacksize="64" scale="0.5" impactsoundtag="impact_soft">
     <PreferredContainer primary="storagecab,crewcab" />
     <PreferredContainer secondary="locker" />
     <Price baseprice="350" buyingpricemodifier="2.5" minleveldifficulty="40" >
@@ -55,7 +55,7 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  <Item name="" identifier="combatstimulantsyringe" category="Medical" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="combatstimulantsyringe" category="Medical" maxstacksize="64" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="medcab" secondary="supplycab" />
     <PreferredContainer secondary="locker" />
     <Price baseprice="340" sold="false">
@@ -106,7 +106,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="pressurestabilizer" category="Medical" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="pressurestabilizer" category="Medical" maxstacksize="64" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="medcab" secondary="supplycab" />
     <PreferredContainer secondary="locker" />
     <Price baseprice="200" sold="false">
@@ -153,7 +153,7 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="endocrinebooster" category="Medical" maxstacksize="8" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="endocrinebooster" category="Medical" maxstacksize="64" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="medcab" secondary="supplycab" />
     <PreferredContainer secondary="locker" />
     <Price baseprice="1400" sold="false">

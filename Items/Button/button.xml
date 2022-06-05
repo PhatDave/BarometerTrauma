@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="" identifier="button" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="button" category="Electrical" tags="smallitem,button" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="64">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="150" minavailable="4">
       <Price storeidentifier="merchantoutpost" />
@@ -34,7 +34,7 @@
       <requireditem identifier="wrench" type="Equipped" />
     </Holdable>
   </Item>
-  <Item name="" identifier="switch" category="Electrical" tags="smallitem,switch" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="8">
+  <Item name="" identifier="switch" category="Electrical" tags="smallitem,switch" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true" maxstacksize="64">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <Price baseprice="100" minavailable="4">
       <Price storeidentifier="merchantoutpost" />

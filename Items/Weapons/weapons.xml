@@ -445,7 +445,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
 
-  <Item name="" identifier="stungrenade" category="Weapon" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="stungrenade" category="Weapon" maxstacksize="64" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="1"/>
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="3" spawnprobability="0.2"/>
     <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="3" spawnprobability="0.33"/>
@@ -493,7 +493,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="empgrenade" category="Weapon" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="empgrenade" category="Weapon" maxstacksize="64" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="1"/>
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
     <PreferredContainer primary="armcab" secondary="locker"/>
@@ -543,7 +543,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="fraggrenade" category="Weapon" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="fraggrenade" category="Weapon" maxstacksize="64" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="secarmcab" minamount="1" maxamount="5" spawnprobability="1"/>
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.175"/>
     <PreferredContainer secondary="abandonedarmcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
@@ -592,7 +592,7 @@
     </Quality>
   </Item>
   
-  <Item name="" identifier="incendiumgrenade" category="Weapon" maxstacksize="8" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_heavy">
+  <Item name="" identifier="incendiumgrenade" category="Weapon" maxstacksize="64" cargocontaineridentifier="explosivecrate" tags="smallitem,weapon,explosive,demolitionsexpert" Scale="0.5" impactsoundtag="impact_metal_heavy">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="1"/>
     <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="2" spawnprobability="0.125"/>
     <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="2" spawnprobability="0.175"/>
@@ -811,7 +811,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   
-  <Item name="" identifier="40mmgrenade" category="Weapon" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,grenade" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="40mmgrenade" category="Weapon" maxstacksize="64" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,grenade" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="grenadelauncher" minamount="1" maxamount="1" spawnprobability="1"/>
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="0.25"/>
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="2" spawnprobability="0.2"/>
@@ -865,7 +865,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
 
-  <Item name="" identifier="40mmstungrenade" category="Weapon" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,grenade" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="40mmstungrenade" category="Weapon" maxstacksize="64" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,grenade" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="secarmcab" minamount="0" maxamount="5" spawnprobability="0.2"/>
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="3" spawnprobability="0.2"/>
     <PreferredContainer secondary="abandonedarmcab" minamount="0" maxamount="3" spawnprobability="0.2"/>
@@ -1063,7 +1063,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   
-  <Item name="" identifier="stungundart" category="Weapon" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,stungunammo" Scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="" identifier="stungundart" category="Weapon" maxstacksize="64" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,stungunammo" Scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="armcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
     <PreferredContainer secondary="wreckarmcab" minamount="0" maxamount="3" spawnprobability="0.2"/>
     <PreferredContainer secondary="abandonedarmcab" minamount="1" maxamount="2" spawnprobability="0.125"/>

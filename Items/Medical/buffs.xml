@@ -3,7 +3,7 @@
   <!-- Name: Tonic Liquid FIX THIS DESCRIPTION!!!!!!!!!!!!!!!!!!!!!!! -->
   <!-- Description: A medical solution that's mildly effective as a treatment for internal damage, but most commonly used as an ingredient in more complex medical compounds. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <TonicLiquid name="" identifier="tonicliquid" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <TonicLiquid name="" identifier="tonicliquid" category="Medical" maxstacksize="64" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" spawnprobability="0.5" />
     <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.04" />
@@ -57,7 +57,7 @@
   <!-- Name: Methamphetamine -->
   <!-- Description: A potent nervous system stimulant. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Methamphetamine name="" identifier="meth" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Methamphetamine name="" identifier="meth" category="Medical" maxstacksize="64" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" spawnprobability="0.1" />
     <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="1" maxamount="2" spawnprobability="0.04" />
@@ -134,7 +134,7 @@
   <!-- Name: Anabolic Steroids -->
   <!-- Description: Temporarily increases muscular strength and physical performance. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <AnabolicSteroids name="" identifier="steroids" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <AnabolicSteroids name="" identifier="steroids" category="Medical" maxstacksize="64" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" spawnprobability="0.1" />
     <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.04" />
@@ -203,7 +203,7 @@
   <!-- Name: Hyperzine -->
   <!-- Description: An extremely potent muscle stimulant for those moments when you gotta go fast. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Hyperzine name="" identifier="hyperzine" category="Medical" maxstacksize="8" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+  <Hyperzine name="" identifier="hyperzine" category="Medical" maxstacksize="64" cargocontaineridentifier="chemicalcrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medcab" spawnprobability="0.1" />
     <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.04" />
@@ -285,7 +285,7 @@
   <!-- Name: Ethanol -->
   <!-- Medical alcohol used as an ingredient in the manufacture of various medicines. Drinking while on duty is not advised. -->
   <!-- *************************************************************************************************************************************************************************** -->
-  <Ethanol name="" identifier="ethanol" category="Medical,Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical,petfood2" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+  <Ethanol name="" identifier="ethanol" category="Medical,Material" maxstacksize="64" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,chem,medical,petfood2" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
     <PreferredContainer primary="medfabcab" minamount="2" maxamount="4" spawnprobability="1" />
     <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="0" maxamount="1" spawnprobability="0.2" />
