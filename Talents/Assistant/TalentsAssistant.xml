@@ -17,109 +17,7 @@
         <CharacterAbilityGiveStat stattype="RepairSpeed" value="0.2" />
       </Abilities>
     </AbilityGroupEffect>
-  <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.clowndivingmask" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.revolverround" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.cigar" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.handcannon,entityname.handcannonround" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.autoinjectorheadset" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.combatstimulantsyringe" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.endocrinebooster" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.pressurestabilizer" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.advancedgenesplicer" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.depletedfuel,entityname.coilgunammoboxdepletedfuel" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.wrenchhardened,entityname.screwdriverhardened,entityname.crowbarhardened,entityname.divingknifehardened" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.dirtybomb" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.smgmagazinedepletedfuel,entityname.revolverrounddepletedfuel" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.nucleargun" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.handheldelectricalmonitor" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.pucs" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.thermalgoggles" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.reactorpda" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.cargoscooter" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.fulguriumfuelrodvolatile" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.repairpack" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.fixfoamgrenade" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.portablepump" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.handheldstatusmonitor" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.safetyharness" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.wrenchdementonite,entityname.crowbardementonite,entityname.screwdriverdementonite,entityname.divingknifedementonite" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.shotgunshell" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.stungundartfulgurium" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.slipsuit" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.assaultrifle,entityname.assaultriflemagazine" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.smgmagazine" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.autoshotgun" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.shotgunslugexplosive" color="gui.orange" />
-    </Description>
-    <Description tag="talentdescription.unlockrecipe">
-      <Replace tag="[itemname]" value="entityname.bandolier" color="gui.orange" />
-    </Description>
-    </Talent>
+  </Talent>
 
   <Talent identifier="apprenticeship">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,5" sheetelementsize="128,128" />
@@ -474,6 +372,9 @@
 
   <Talent identifier="waterprankster">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.clowndivingmask" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.waterprankster">
       <Replace tag="[afflictionname]" value="afflictionname.clownpower" color="gui.orange" />
       <Replace tag="[swimspeedvalue]" value="50" color="gui.green" />
