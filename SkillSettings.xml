@@ -44,14 +44,14 @@ AssistantSkillIncreaseMultiplier
 
 <SkillSettings
   SingleRoundSkillGainMultiplier="5.0"
-  SkillIncreasePerRepair="5.0"
-  SkillIncreasePerCprRevive="0.5"
-  SkillIncreasePerRepairedStructureDamage="0.0025"
-  SkillIncreasePerSecondWhenSteering="0.005"
-  SkillIncreasePerFabricatorRequiredSkill="0.5"
-  SkillIncreasePerHostileDamage="0.1"
-  SkillIncreasePerSecondWhenOperatingTurret="0.01"
-  SkillIncreasePerFriendlyHealed="0.1"
+  SkillIncreasePerRepair="12.5"
+  SkillIncreasePerCprRevive="1.25"
+  SkillIncreasePerRepairedStructureDamage="0.00625"
+  SkillIncreasePerSecondWhenSteering="0.0125"
+  SkillIncreasePerFabricatorRequiredSkill="1.25"
+  SkillIncreasePerHostileDamage="0.25"
+  SkillIncreasePerSecondWhenOperatingTurret="0.025"
+  SkillIncreasePerFriendlyHealed="0.25"
   AssistantSkillIncreaseMultiplier="1.0"
   MaximumSkillWithTalents="200.0"
   />
