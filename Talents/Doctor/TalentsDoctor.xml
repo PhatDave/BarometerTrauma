@@ -246,6 +246,9 @@
 
   <Talent identifier="mechanicscourse">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.autoinjectorheadset" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.skillbonus">
       <Replace tag="[amount]" value="20" color="gui.green" />
       <Replace tag="[skillname]" value="skillname.mechanical" color="gui.orange" />
@@ -275,6 +278,9 @@
 
   <Talent identifier="combatmedic">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="7,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.combatstimulantsyringe" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.combatmedic">
       <Replace tag="[skillpercentage]" value="30" color="gui.green" />
     </Description>
@@ -306,6 +312,9 @@
 
   <Talent identifier="dontdieonme">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.endocrinebooster" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.dontdieonme" />
     <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
@@ -357,6 +366,9 @@
 
   <Talent identifier="researchgrant">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="2,6" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.pressurestabilizer" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.researchgrant">
       <Replace tag="[marks]" value="300" color="gui.green" />
     </Description>
@@ -449,6 +461,9 @@
 
   <Talent identifier="advancedsplicing">
     <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,6" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.advancedgenesplicer" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.advancedsplicing">
       <Replace tag="[experienceamount]" value="125" color="gui.orange" />
       <Replace tag="[skillbonus]" value="5" color="gui.orange" />

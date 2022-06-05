@@ -372,6 +372,9 @@
 
   <Talent identifier="waterprankster">
     <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.clowndivingmask" color="gui.orange" />
+    </Description>
     <Description tag="talentdescription.waterprankster">
       <Replace tag="[afflictionname]" value="afflictionname.clownpower" color="gui.orange" />
       <Replace tag="[swimspeedvalue]" value="50" color="gui.green" />
